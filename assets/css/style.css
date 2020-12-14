@@ -1,40 +1,8 @@
 @import "./reset.css";
+@import "./grid.css";
+@import "./block-content.css";
 
-.header{
-  background-color: #292c47;
-}
-.container{
- max-width: 1200px;
- margin: 0 auto;
-}
-.wrapper{
-  display: flex;
-  overflow: hidden;
-  flex-direction: column;
-}
-.header-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-logo {
-}
-
-.header-menu {
-}
-
-.menu-nav {
-}
-
-.menu-list {
-}
-
-.menu-link {
-}
-
-.block {
-}
-
-.block-content {
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
